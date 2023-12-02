@@ -45,3 +45,8 @@ executable 01_trebuchet
   import: bin, flags
   build-depends: base, adventofcode2023
   main-is:       01_trebuchet.hs
+
+executable 02_cube_conundrum
+  import: bin, flags
+  build-depends: base, adventofcode2023, aocsplit
+  main-is:       02_cube_conundrum.hs
