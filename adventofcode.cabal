@@ -65,3 +65,8 @@ executable 05_seed_fertiliser
   import: bin, flags
   build-depends: base, adventofcode2023, aocsplit
   main-is:       05_seed_fertiliser.hs
+
+executable 06_wait_for_it
+  import: bin, flags
+  build-depends: base, adventofcode2023
+  main-is:       06_wait_for_it.hs
