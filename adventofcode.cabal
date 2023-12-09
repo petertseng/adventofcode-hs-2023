@@ -80,3 +80,8 @@ executable 08_haunted_wasteland
   import: bin, flags
   build-depends: base, adventofcode2023, containers
   main-is:       08_haunted_wasteland.hs
+
+executable 09_mirage_maintenance
+  import: bin, flags
+  build-depends: base, adventofcode2023
+  main-is:       09_mirage_maintenance.hs
