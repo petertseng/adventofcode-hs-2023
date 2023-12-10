@@ -85,3 +85,8 @@ executable 09_mirage_maintenance
   import: bin, flags
   build-depends: base, adventofcode2023
   main-is:       09_mirage_maintenance.hs
+
+executable 10_pipe_maze
+  import: bin, flags
+  build-depends: base, adventofcode2023, array, containers
+  main-is:       10_pipe_maze.hs
