@@ -90,3 +90,8 @@ executable 10_pipe_maze
   import: bin, flags
   build-depends: base, adventofcode2023, array, containers
   main-is:       10_pipe_maze.hs
+
+executable 11_cosmic_expansion
+  import: bin, flags
+  build-depends: base, adventofcode2023, containers
+  main-is:       11_cosmic_expansion.hs
