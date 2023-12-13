@@ -100,3 +100,8 @@ executable 12_hot_springs
   import: bin, flags
   build-depends: base, adventofcode2023, aocsplit, containers
   main-is:       12_hot_springs.hs
+
+executable 13_point_of_incidence
+  import: bin, flags
+  build-depends: base, adventofcode2023, aocsplit
+  main-is:       13_point_of_incidence.hs
