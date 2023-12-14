@@ -105,3 +105,8 @@ executable 13_point_of_incidence
   import: bin, flags
   build-depends: base, adventofcode2023, aocsplit
   main-is:       13_point_of_incidence.hs
+
+executable 14_parabolic_reflector_dish
+  import: bin, flags
+  build-depends: base, adventofcode2023, containers
+  main-is:       14_parabolic_reflector_dish.hs
