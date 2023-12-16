@@ -115,3 +115,8 @@ executable 15_lens_library
   import: bin, flags
   build-depends: base, adventofcode2023, aocsplit, array
   main-is:       15_lens_library.hs
+
+executable 16_floor_will_be_lava
+  import: bin, flags
+  build-depends: base, adventofcode2023, array, containers
+  main-is:       16_floor_will_be_lava.hs
