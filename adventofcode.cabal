@@ -35,6 +35,12 @@ library
   exposed-modules: AdventOfCode
   build-depends:   base
 
+library aocsearch
+  import: flags
+  hs-source-dirs:  lib
+  exposed-modules: AdventOfCode.Search
+  build-depends:   base, containers
+
 library aocsplit
   import: flags
   hs-source-dirs:  lib
@@ -120,3 +126,8 @@ executable 16_floor_will_be_lava
   import: bin, flags
   build-depends: base, adventofcode2023, array, containers
   main-is:       16_floor_will_be_lava.hs
+
+executable 17_clumsy_crucible
+  import: bin, flags
+  build-depends: base, adventofcode2023, aocsearch, array
+  main-is:       17_clumsy_crucible.hs
