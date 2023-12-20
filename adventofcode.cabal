@@ -141,3 +141,8 @@ executable 19_aplenty
   import: bin, flags
   build-depends: base, adventofcode2023, aocsplit, containers
   main-is:       19_aplenty.hs
+
+executable 20_pulse_propagation
+  import: bin, flags
+  build-depends: base, adventofcode2023, aocsplit, containers
+  main-is:       20_pulse_propagation.hs
