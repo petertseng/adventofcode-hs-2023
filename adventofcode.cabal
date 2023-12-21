@@ -145,3 +145,8 @@ executable 20_pulse_propagation
   import: bin, flags
   build-depends: base, adventofcode2023, aocsplit, containers
   main-is:       20_pulse_propagation.hs
+
+executable 21_step_counter
+  import: bin, flags
+  build-depends: base, adventofcode2023, array, containers
+  main-is:       21_step_counter.hs
