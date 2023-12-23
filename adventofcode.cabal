@@ -155,3 +155,8 @@ executable 22_sand_slabs
   import: bin, flags
   build-depends: base, adventofcode2023, aocsplit, containers
   main-is:       22_sand_slabs.hs
+
+executable 23_a_long_walk
+  import: bin, flags
+  build-depends: base, adventofcode2023, aocsearch, array, containers, mtl
+  main-is:       23_a_long_walk.hs
